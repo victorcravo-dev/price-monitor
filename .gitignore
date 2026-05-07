@@ -1,0 +1,21 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Data (don't commit personal price history)
+data/price_history.json
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
